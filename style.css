@@ -1,0 +1,30 @@
+.img{
+    border-radius :30px; 
+animation: rotate 2s infinite;}
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+    
+}
+.img1{border-radius: 50px;
+animation: reverse 2s infinite;}
+@keyframes reverse{
+    40%{transform: translate3d(-40Px);}
+}
+.img2{animation: role 2s infinite;}
+@keyframes role{
+    50%{transform: translate(-40px);}
+}
+.img3{animation:fadein 3s infinite}
+@keyframes fadein{
+    0%{opacity:0;}
+    50%{opacity:5;}
+    100%{opacity:0;}}
+
+
+.img4{ animation:bounce 2s infinite;}
+@keyframes bounce{
+    0%{transform: translateY(0);}
+    40%{transform: translateY(-20px);}
+   80%{transform: translateY(-40px);}}
+
